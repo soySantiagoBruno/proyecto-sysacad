@@ -1,32 +1,37 @@
 # proyecto-sysacad
 
 ## Instalación
-1. Clona el repositorio.
-2. Crea un entorno virtual en la carpeta del proyecto:
-    ```
-    python -m venv env_name
-o bien podes hacerla en una carpeta diferente *(sugerido)*
-    
-    python -m venv C:\Users\userX\environments\gral_env
 
+1. Cloná el repositorio.
 
+2. Creá un entorno virtual en la carpeta del proyecto:
+   ```bash
+   python -m venv env_name
+   ```
+   O bien, podés crearlo en una carpeta diferente *(sugerido)*:
+   ```bash
+   python -m venv C:\Users\userX\environments\gral_env
+   ```
 
-3. Activa el entorno. Dependiendo la terminal que uses, el comando varia: 
-**Git Bash (Windows):**
+3. Activá el entorno virtual. Dependiendo de la terminal que uses, el comando varía:
 
-    source env_name/Scripts/activate
+   **Git Bash (Windows):**
+   ```bash
+   source env_name/Scripts/activate
+   ```
 
-**CMD (Windows):**
+   **CMD (Windows):**
+   ```cmd
+   env_name\Scripts\activate
+   ```
 
-    env_name\Scripts\activate    
+   Una vez activado, deberías ver algo como `(env_name)` al inicio de la línea en tu terminal.  
+   Si no lo ves, probá con:
+   ```bash
+   which python
+   ```
 
----
-\
-Una vez activado, deberías ver algo como (env_name) al inicio de la línea en tu terminal. Si no lo ves, pone 
-    
-    which python
-
-
-4. Instala las dependencias en el entorno virtual seleccionado
-    
-    pip install -r requirements.txt
+4. Instalá las dependencias en el entorno virtual seleccionado:
+   ```bash
+   pip install -r requirements.txt
+   ```
