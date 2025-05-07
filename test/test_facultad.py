@@ -4,6 +4,8 @@ from app import create_app
 from app.models import Facultad
 import os
 
+from app.services.facultad_service import FacultadService
+
 class FacultadTestCase(unittest.TestCase):
 
     def setUp(self):
@@ -30,6 +32,15 @@ class FacultadTestCase(unittest.TestCase):
         self.assertIsNotNone(facultad)
         self.assertEqual(facultad.nombre, "Facultad de Ciencias Exactas")
         self.assertEqual(facultad.abreviatura, "FCE")
+
+    def test_facultad_busqueda(self):
+        facultad = self._nuevaFacultad()
+        FacultadService.crear_facultad(facultad)
+        FacultadService.buscar_facultad(facultad)
+        FacultadService.buscar_por_id(facultad.id)
+        self.assertEqual(facultad.nombre, "Facultad de Ciencias Exactas")
+        self.assertEqual(facultad.abreviatura, "FCE")
+        
 
 if __name__ == "__main__":
     unittest.main()
