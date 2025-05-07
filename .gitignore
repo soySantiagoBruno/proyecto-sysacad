@@ -16,9 +16,11 @@ __pycache__/
 *.pyo
 *.pyd
 *.so
+*.cpython-*
 
-# Configuración de VS Code
+# Configuración de editores de código
 .vscode/
+.idea/
 *.code-workspace
 
 # Logs y archivos temporales
@@ -27,7 +29,7 @@ __pycache__/
 *.swp
 *.bak
 
-# Archivos de bases de datos locales (si los hubiera)
+# Archivos de bases de datos locales
 *.sqlite3
 
 # Docker
@@ -43,7 +45,3 @@ Thumbs.db
 dist/
 build/
 *.egg-info/
-
-# Ignorar archivos compilados por Python
-__pycache__/
-*.py[cod]
