@@ -1,5 +1,8 @@
 # proyecto-sysacad
 
+[Información Útil](https://cake-sushi-9a6.notion.site/Info-til-1c29afa16efd8055b44ddbd7f53260b8?pvs=4)
+
+
 ## Instalación
 
 1. Cloná el repositorio.
