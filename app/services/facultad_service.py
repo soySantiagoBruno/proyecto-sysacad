@@ -1,3 +1,4 @@
+from typing import Optional
 from app.models import Facultad
 from app.repositories.facultad_repositorio import FacultadRepository
 
@@ -16,7 +17,7 @@ class FacultadService:
         FacultadRepository.crear(facultad)
     
     @staticmethod
-    def buscar_por_id(id: int) -> Facultad:
+    def buscar_por_id(id: int) -> Optional[Facultad]:
         """
         Busca una facultad por su ID.
         :param id: ID de la facultad a buscar.
@@ -33,7 +34,7 @@ class FacultadService:
         return FacultadRepository.buscar_todos()
     
     @staticmethod
-    def actualizar_facultad(id: int, facultad: Facultad) -> Facultad:
+    def actualizar_facultad(id: int, facultad: Facultad) -> Optional[Facultad]:
         """
         Actualiza una facultad existente en la base de datos.
         :param id: ID de la facultad a actualizar.
@@ -55,7 +56,7 @@ class FacultadService:
         return facultad_existente
         
     @staticmethod
-    def borrar_por_id(id: int) -> Facultad:
+    def borrar_por_id(id: int) -> Optional[Facultad]:
         """
         Borra una facultad por su ID.
         :param id: ID de la facultad a borrar.
@@ -65,5 +66,3 @@ class FacultadService:
         if not facultad:
             return None
         return facultad
-    
-        

@@ -18,4 +18,4 @@ class AppTestCase(unittest.TestCase):
         self.assertIsNotNone(current_app)
 
 if __name__ == '__main__':
-        unittest.main(verbosity=2, buffer=True, exit=False)
+    unittest.main()

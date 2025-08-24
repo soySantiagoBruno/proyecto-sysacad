@@ -1,0 +1,182 @@
+[33mcommit ec577445fb3f0be68a736c02893b53621ae8ee80[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Santiago Bruno <soysantiagobruno@gmail.com>
+Date:   Wed Aug 6 17:47:11 2025 -0300
+
+    actualizo el instalador de dependencias para mostrar un error en caso de que surga
+
+[33mcommit 7b298e85902396c9899f250d4a8f7587f43c5a72[m
+Merge: 22529a5 fce1ac3
+Author: Santiago Bruno <soysantiagobruno@gmail.com>
+Date:   Wed Aug 6 17:41:34 2025 -0300
+
+    Merge branch 'main' of https://github.com/soySantiagoBruno/proyecto-sysacad
+
+[33mcommit 22529a56cd580a636140e52ccb7b1dc5b67d63cc[m
+Author: Santiago Bruno <soysantiagobruno@gmail.com>
+Date:   Wed Aug 6 17:36:14 2025 -0300
+
+    elimino el instalador de dependencias que se usa en linux (estamos usando windows)
+
+[33mcommit 83cc660c09ce7d25ae65c664a42b5a60574f8335[m
+Author: Santiago Bruno <soysantiagobruno@gmail.com>
+Date:   Wed Jun 18 18:18:02 2025 -0300
+
+    agrego rutas con blueprint para poder usar el certificado
+
+[33mcommit be78e921f749c0a5e28a5e6bbba25bde1f324c48[m
+Author: Santiago Bruno <soysantiagobruno@gmail.com>
+Date:   Wed Jun 18 18:13:38 2025 -0300
+
+    limpio archivo principal "app"
+
+[33mcommit 0189eacec5145a2d5725c9b648c0b9983df3fe73[m
+Author: Santiago Bruno <soysantiagobruno@gmail.com>
+Date:   Wed Jun 18 18:12:49 2025 -0300
+
+    agrego ruta para generar certificados en formato PDF
+
+[33mcommit fce1ac335a52567dd74c9df9ef2d9fec2318cdbb[m
+Author: Juan <freelife07boos@gmail.com>
+Date:   Wed Jun 18 18:00:04 2025 -0300
+
+    Convertididor de pdf
+
+[33mcommit 4d0ef359dce31618a21f073038c2af11de315174[m
+Merge: f124b2a 0e378eb
+Author: Santiago Bruno <soysantiagobruno@gmail.com>
+Date:   Wed Jun 18 17:02:07 2025 -0300
+
+    Merge branch 'main' of https://github.com/soySantiagoBruno/proyecto-sysacad
+
+[33mcommit f124b2a0570afd430cc3bfd49da03aea9da31fe3[m
+Author: Santiago Bruno <soysantiagobruno@gmail.com>
+Date:   Wed Jun 18 16:55:24 2025 -0300
+
+    agrego pruebas unitarias para la API
+
+[33mcommit 4131aee7ec703b53a1c0dde7371b49c2265f35b7[m
+Author: Santiago Bruno <soysantiagobruno@gmail.com>
+Date:   Wed Jun 18 16:54:58 2025 -0300
+
+    agrego libreria weasyprint a requirements (y la instalo)
+
+[33mcommit 5ee3e6a3eb7c6a5582a2f0d1e6fe204d8971522f[m
+Author: Santiago <soysantiagobruno@gmail.com>
+Date:   Wed May 14 17:00:56 2025 -0300
+
+    actualizo models
+
+[33mcommit 248a9a9140d88745f421790cf69d71116aba1826[m
+Author: Santiago <soysantiagobruno@gmail.com>
+Date:   Wed May 14 16:59:08 2025 -0300
+
+    archivo en desuso
+
+[33mcommit 0e378eb0b0d458db778711810b338dae291e1f4e[m
+Author: Santiago Bruno <75147754+soySantiagoBruno@users.noreply.github.com>
+Date:   Wed May 7 18:33:07 2025 -0300
+
+    Agrego link a info útil al readme
+
+[33mcommit d9ce51e8fbf7689abc0b5bf1570291f48fea7dc7[m
+Author: Santiago <soysantiagobruno@gmail.com>
+Date:   Wed May 7 18:12:02 2025 -0300
+
+    agrego pruebas para la creación y búsqueda de facultades
+
+[33mcommit 5e6b50eb2c7776f3cdc7e2f65a25ade5e837fa73[m
+Author: Santiago <soysantiagobruno@gmail.com>
+Date:   Wed May 7 18:01:12 2025 -0300
+
+    Eliminando archivos __pycache__ adicionales
+
+[33mcommit 34d90eba9a9b8091446a568cbc513783127a0178[m
+Author: Santiago <soysantiagobruno@gmail.com>
+Date:   Wed May 7 18:00:22 2025 -0300
+
+    Eliminando archivos __pycache__ del repositorio
+
+[33mcommit 925caf3c0c30e3b48e6c8d593a478746cf29765e[m
+Author: Santiago <soysantiagobruno@gmail.com>
+Date:   Wed May 7 17:58:15 2025 -0300
+
+    actualizo gitignore
+
+[33mcommit f530ef5a431b81a1565adaf44e3c1b2a53e8a539[m
+Author: Santiago <soysantiagobruno@gmail.com>
+Date:   Wed May 7 17:55:03 2025 -0300
+
+    creo facultad_service
+
+[33mcommit 67736562fa85eab0e34de5ffa35fc0e977044cb1[m
+Author: Santiago <soysantiagobruno@gmail.com>
+Date:   Wed May 7 17:54:51 2025 -0300
+
+    agrego tests
+
+[33mcommit 6997d73e873a1ffa8a8e9d0d790dd0c2c2bbe7ec[m
+Author: Santiago <soysantiagobruno@gmail.com>
+Date:   Wed May 7 17:54:32 2025 -0300
+
+    agrego models
+
+[33mcommit 9f8387c896a9affd4332bf919f0b793d2f0d08b0[m[33m ([m[1;33mtag: [m[1;33m3.1.0-beta.5[m[33m)[m
+Author: Santiago <soysantiagobruno@gmail.com>
+Date:   Wed Apr 30 18:24:29 2025 -0300
+
+    agrego flask-migrate a las librerias requeridas
+
+[33mcommit daa961131dbd0c79848519c4f6ad257c538c05b8[m
+Merge: 3696d53 5bf5557
+Author: Santiago <soysantiagobruno@gmail.com>
+Date:   Sun Apr 20 22:21:51 2025 -0300
+
+    Merge branch 'main' of https://github.com/soySantiagoBruno/proyecto-sysacad
+
+[33mcommit 3696d53a326ba5bb910a4c446e792f7c1009eb88[m
+Author: Santiago <soysantiagobruno@gmail.com>
+Date:   Sun Apr 20 22:21:34 2025 -0300
+
+    actualizo el gitignore para ignorar archivos compilaods por python
+
+[33mcommit 5bf55573aa36aeb27b96914097aa43804d65e72d[m
+Author: Santiago Bruno <75147754+soySantiagoBruno@users.noreply.github.com>
+Date:   Sun Apr 20 21:53:00 2025 -0300
+
+    Update README.md
+
+[33mcommit 57e32db9deb0ad934022e37e54345dd9e3186196[m
+Author: Santiago <soysantiagobruno@gmail.com>
+Date:   Sun Apr 20 21:45:49 2025 -0300
+
+    actualizo el readme
+
+[33mcommit f1f69551bd7a1c6e91a0e195d5048ea494b44690[m
+Author: Santiago <soysantiagobruno@gmail.com>
+Date:   Wed Apr 16 18:36:55 2025 -0300
+
+    elimino text_db porque no tengo una base de datos aun y no me verifica el test
+
+[33mcommit 7046c921870aed01f733d0bf9957862141eb0dc8[m
+Author: Santiago <soysantiagobruno@gmail.com>
+Date:   Wed Apr 16 18:36:12 2025 -0300
+
+    agrego un .gitignore
+
+[33mcommit a11af7c723c429d835ba2612f77b6a137943496e[m
+Author: Santiago <soysantiagobruno@gmail.com>
+Date:   Wed Apr 16 17:36:18 2025 -0300
+
+    agrego el diagrama de clases para tenerlo a mano y poder verlo con plantUML
+
+[33mcommit 58dc524497ab2feb027ce401497ff272ac24e130[m
+Author: Santiago <soysantiagobruno@gmail.com>
+Date:   Wed Apr 16 16:47:28 2025 -0300
+
+    agrego archivos del proyecto
+
+[33mcommit 9b7495f6bbed28f50462608fc8e68af13ccdefea[m
+Author: Santiago <soysantiagobruno@gmail.com>
+Date:   Wed Apr 9 18:02:29 2025 -0300
+
+    first commit

@@ -1,1 +1,1 @@
-from .facultad_service import FacultadService
+from app.services.facultad_service import FacultadService

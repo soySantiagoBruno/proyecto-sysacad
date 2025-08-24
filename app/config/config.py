@@ -44,4 +44,4 @@ def factory(app: str) -> Config:
         'production': ProductionConfig
     }
     
-    return configuration[app]
+    return configuration.get(app, DevelopmentConfig)()
